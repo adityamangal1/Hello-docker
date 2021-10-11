@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.docker {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 1rem;
+}
+
+.docker:hover {
+  width: 4%;
+}
+
+body {
+  /* margin: 0; */
+  background-image: url(../src/bgimg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  /* overflow: hidden; */
+}
+
+/* Style the links inside the navigation bar */
+
+.navbar a {
+  position: absolute;
+  background: orange;
+  text-decoration: none;
+  font-family: "Baloo Tamma 2", cursive;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 11px;
+  border: 2px solid black;
+  margin-left: 43rem;
+  margin-top: 42rem;
+  padding: 2.5px;
+  font-weight: bold;
+}
+
+/* Change the color of links on hover */
+
+.navbar a:hover {
+  font-size: 21px;
+  animation: color-change 9s linear infinite;
+}
+
+@keyframes color-change {
+  0%, 100% {
+    filter: hue-rotate(0deg);
+  }
+  50% {
+    filter: hue-rotate(360deg);
+  }
+}

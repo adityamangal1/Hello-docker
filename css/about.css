@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@700&display=swap');
+body {
+    background-color: #0db7ed;
+}
+
+.doc3 {
+    width: 15%;
+    margin-left: 42rem;
+}
+
+.firstpara {
+    width: 99%;
+    height: 13.5%;
+    background: rgb(0, 255, 243);
+    position: absolute;
+    margin-left: 0rem;
+    margin-top: 1rem;
+    border: 2px solid;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: "Baloo Tamma 2", cursive;
+}
+
+.firstpara:hover {
+    color: rgb(0, 113, 243);
+    font-size: 16.5px;
+}
+
+.secondpara {
+    width: 99%;
+    height: 19.5%;
+    background: rgb(0, 255, 243);
+    position: absolute;
+    margin-left: 0rem;
+    margin-top: 10rem;
+    border: 2px solid;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: "Baloo Tamma 2", cursive;
+}
+
+.thirdpara {
+    width: 66%;
+    height: 29.5%;
+    background: rgb(0, 255, 243);
+    position: absolute;
+    margin-left: 30rem;
+    margin-top: 23rem;
+    border: 2px solid;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: "Baloo Tamma 2", cursive;
+}
+
+h1 {
+    font-size: 16px;
+    color: blue;
+    margin-left: 35rem;
+    text-decoration: underline;
+}
+
+.second {
+    color: black;
+    margin-top: -0.60rem;
+    margin-left: 1rem;
+}
+
+.third {
+    color: black;
+    margin-top: -0.60rem;
+    margin-left: 1rem;
+}
+
+.third:hover {
+    color: rgb(0, 113, 243);
+    font-size: 16.5px;
+}
+
+.head2 {
+    margin-left: 24rem;
+}
+
+.second:hover {
+    color: rgb(0, 113, 243);
+    /* font-size: 16.5px; */
+}
+
+.docimg {
+    width: 30%;
+    position: absolute;
+    margin-top: 27rem;
+    margin-left: -56rem;
+}
+
+.right {
+    position: absolute;
+    margin-top: 1rem;
+    width: 5%;
+    margin-left: 32rem;
+    animation: color-change 3s linear infinite;
+}
+
+.left {
+    position: absolute;
+    margin-top: 1rem;
+    width: 5%;
+    margin-left: -56rem;
+    animation: color-change 3s linear infinite;
+}
+
+.button1 {
+    position: absolute;
+    background: aquamarine;
+    text-decoration: none;
+    font-family: "Baloo Tamma 2", cursive;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 11px;
+    border: 2px solid black;
+    margin-left: 80rem;
+    margin-top: 14px;
+    padding: 2.5px;
+}
+
+#logo {
+    /* width: 16%;
+     */
+    position: absolute;
+    width: 200%;
+}
+
+@keyframes color-change {
+    0%, 100% {
+        filter: hue-rotate(0deg);
+    }
+    50% {
+        filter: hue-rotate(360deg);
+    }
+}
